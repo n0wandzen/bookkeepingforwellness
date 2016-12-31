@@ -1,0 +1,106 @@
+.purple {
+  background-color: purple;
+}
+
+body {
+  background-color: #f0f0f2;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  }
+  #fixed-bottom-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4c0080;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+    #fixed-bottom-li-left {
+      float: left;
+      border-right: 1px solid #bbb;
+    }
+    #fixed-bottom-li-right {
+      float: right;
+      border-left: 1px solid #bbb;
+    }
+    /*#fixed-bottom-li-center {
+      float: center;
+    }*/
+    #fixed-bottom-li-left a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    #fixed-bottom-li-right a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    /*#fixed-bottom-li-center a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }*/
+/* Change the link color to #111 (black) on hover */
+    #fixed-bottom-li-left a:hover {
+      background-color: #111;
+    }
+    #fixed-bottom-li-right a:hover {
+      background-color: #111;
+    }
+
+
+  .pitch {
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 1em;
+    }
+  .free-book {
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 1em;
+    }
+    #free-book-pic {
+      width: 600px;
+      margin: 5em auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 1em;
+      }
+    #free-book-signup {
+      width: 600px;
+      margin: 5em auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 1em;
+      }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
