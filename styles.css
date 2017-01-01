@@ -28,7 +28,7 @@ hr {
 .responsive {
   max-width: 100%;
   height: auto;
-  font-size: 1vw;
+  font-size: .1vw;
 }
 
 .menu-hight-margin {
