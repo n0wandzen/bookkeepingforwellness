@@ -28,7 +28,6 @@ hr {
 .responsive {
   max-width: 100%;
   height: auto;
-  font-size: .5vw;
 }
 
 .menu-hight-margin {
@@ -88,6 +87,10 @@ ul.topnav li.right {
   ul.topnav li.icon {
     float: right;
     display: inline-block;
+  }
+  
+  .responsive-text {
+    font-size: 5.2vw:
   }
 
 }
